@@ -1,0 +1,527 @@
+{
+"electronic":[
+    {
+        "id":1593,
+        "pname":"Washing machine",
+        "description":"A washing machine is a machine that washes dirty clothes.",
+        "price":"11,00",
+        "image":"washing machine.jpg",
+        "stockquantity":10,
+        "discount":20,
+        "category":"appliances"
+
+        },
+        {
+            "id":1601,
+            "pname":"Hp printer",
+            "description":"prints with nice quality",
+            "country":"india",
+            "price":"4000",
+            "image":"hp printer.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"appliances"
+            },
+            {
+                "id":1596,
+                "pname":"Samsung tv",
+                "description":"enjoy happily",
+                "country":"india",
+                "price":"56000",
+                "image":"samsung 43 inch.jpg",
+                "stockquantity":10,
+            "discount":20,
+            "category":"appliances"
+                },
+                {
+                "id":1597,
+                "pname":"Air conditioner",
+                "description":"enjoy happily",
+                "country":"india",
+                "price":"56000",
+                "image":"ac.jpg",
+                "stockquantity":10,
+            "discount":20,
+            "category":"appliances"
+                },
+        {
+        "id":1595,
+        "pname":"Washing machine",
+        "description":"quicker and easier way to wash clothes",
+        "country":"india",
+        "price":"40000",
+        "image":"washing machine.jpg",
+        "stockquantity":10,
+            "discount":20,
+            "category":"appliances"
+        },
+        
+{
+"id":21001,
+"pname":"Smart Watch",
+"description":"Multi Purpose Ultra fast smart Watch",
+"price":"8999",
+"image":"436737-android-ios-sinnux-original-imafwk2mdsugmetg.jpg",
+"stockquantity":10,
+            "discount":20,
+            "category":"appliances"},
+
+
+{
+"id":1000,
+"pname":"Iphone11",
+"description":"An apple phone for multipurpose",
+"country":"india",
+"price":"49,000",
+"image":"iphone.jpg",
+"stockquantity":10,
+ "discount":20,
+"category":"appliances"
+},
+
+{
+    "id":1594,
+    "pname":"Airpods",
+    "description":"enjoy your music with these airpods",
+    "country":"india",
+    "price":"12000",
+    "image":"airpods.webp",
+    "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+    },
+{
+"id":1592,
+"pname":"Headphones",
+"description":"Built-in microphones and noise cancellation",
+"country":"india",
+"price":"2,400",
+"image":"jbl headphones.jpg",
+"stockquantity":10,
+ "discount":20,
+"category":"appliances"
+},
+
+
+{
+"id":1598,
+"pname":"Apple charger",
+"description":"fast charger",
+"country":"india",
+"price":"1900",
+"image":"apple charger.jpg",
+"stockquantity":10,
+ "discount":20,
+"category":"appliances"
+},
+{
+"id":1599,
+"pname":"Fridge",
+"description":"cooler and power saving fridge",
+"country":"india",
+"price":"19000",
+"image":"fridge.jpg",
+"stockquantity":10,
+ "discount":20,
+"category":"appliances"
+},
+{
+"id":1600,
+"pname":"Canon camera",
+"description":"enhance the quality of your pictures",
+"country":"india",
+"price":"5000",
+"image":"canon E07.jpg",
+"stockquantity":10,
+ "discount":20,
+"category":"appliances"
+},
+
+{
+    "id":1234,
+    "pname":"Samsung galaxy M33 5g",
+    "description":"A samsung phone for multipurpose",
+    "country":"india",
+    "price":"28500",
+    "image":"samsung galaxy.jpg",
+    "stockquantity":10,
+    "discount":20,
+    "category":"appliances"
+    }
+],
+"school":[
+{
+"id":101,
+"pname":"School Casual Backpack",
+"description":"45 litres stylish backpack",
+"price":2999,
+"image":"school-bags-casual-college-backpack-bags-500x500.jpg"},
+{
+    "id":102,
+    "pname":"Camlin geometry box",
+    "description":"Multipurpose mathematical instruments",
+    "price":6999,
+    "image":"71Gx-qHY0qL._SX355_.jpg"
+},
+{
+    "id":103,
+    "pname":"Water Bottle",
+    "description":"Marvel Spider-Man Pluto Stainless Bottel",
+    "price":599,
+    "image":"marvel_spiderman_pluto_stainless_steel_bottle_600_ml_1.webp"
+},
+{
+    "id":104,
+    "pname":"School shoes",
+    "description":"BRANDED BLACK SCHOOL SHOES FOR KIDS",
+    "price":4520,
+    "image":"3256736_7.jpeg"
+},
+{
+    "id":105,
+    "pname":"Calculator",
+    "description":"Best Scientific Calculator",
+    "price":999,
+    "image":"product-comparisons.jpg"
+},
+{
+    "id":106,
+    "pname":"Pencils",
+    "description":"Kids  12 set of pencils",
+    "price":999,
+    "image":"birthday-party-return-gifts-extra-dark-pencils-with-eraser-for-original-imafeypcprzuqxfx.webp"
+}
+],
+"Beds":[
+    {
+    "id":"201",
+    "pname":"Bed with Storgae",
+    "description":"Wakefit Taurus Engineered Wood Bed with Storage (78*60inch) / (198.1*152.4cm) ",
+    "price":"10,499",
+    "image":"1.jpg"
+    },
+    {
+        "id":"202",
+        "pname":" Soft Mattress",
+        "description":"Luxuriously Ultra Soft Mattress for your Mansion",
+        "price":"19,499",
+        "image":"1609410500soft-mattress.png"
+        },
+        {
+            "id":"203",
+            "pname":"Smart Luxe Mattress",
+            "description":"The Smart Luxe - The plushest mattress science can make",
+            "price":"23,599",
+            "image":"Smart-Luxe-1-1.jpg"
+            },
+            {
+                "id":"204",
+                "pname":"Ortho Bed",
+                "description":"Otho ultra soft Beds and Mattress",
+                "price":"5,000",
+                "image":"ortho-queen-bed-coir-mattress-500x500.jpg"
+                },
+                {
+                    "id":"205",
+                    "pname":"Single Bed Matrice",
+                    "description":"Ortho Plus Single Size Memory Foam Mattress",
+                    "price":"8,999",
+                    "image":"images.jpg"
+                    }
+                    
+                
+],
+    "Furniture":[
+        {
+            "id":"901",
+            "pname":"Wardrobe large Size",
+            "description":"Kosmo Apex 4 Door Wardrobe With Drawer in Frosty White Colour",
+            "price":"34,599", 
+            "image":"kosmo-apex-4-door-wardrobe-in-frosty-white-colour-by-spacewood-kosmo-apex-4-door-wardrobe-in-frosty--bhtt8v.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"902",
+            "pname":"Coffee Table",
+            "description":"Petunia Teak Wood Coffee Table With Marble Top In Rustic Teak Finish",
+            "price":"4,999", 
+            "image":"petunia-solid-wood-coffee-table-with-marble-top-in-rustic-teak-finish---mudramark-by-pepperfry-petun-78zpaf.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"903",
+            "pname":"Shoe Cabinet",
+            "description":"Hideko 3 Door Shoe Cabinet in Wenge Finish",
+            "price":"5,400", 
+            "image":"hideko-3-door-shoe-cabinet-in-wenge-finish---valuewud-hideko-3-door-shoe-cabinet-in-wenge-finish---v-cyycxy.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"904",
+            "pname":"Three Seater sofa",
+            "description":"Miranda 3 Seater Sofa In Navy Blue Colour",
+            "price":"40,000", 
+            "image":"miranda-3-seater-sofa-in-navy-blue-colour-by-woodsworth-miranda-3-seater-sofa-in-navy-blue-colour-by-ee7lmu.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"905",
+            "pname":"Night Lamp",
+            "description":"Soomin Black Fabric Shade Floor Lamp With Brass Base",
+            "price":"5,000", 
+            "image":"soomin-black-fabric-shade-floor-lamp-with-brass-base-by-casacraft-soomin-black-fabric-shade-floor-la-343cx2.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"906",
+            "pname":"Single Seater Sofa",
+            "description":"Royal Wing Chair in Blue Colour",
+            "price":16000, 
+            "image":"royal-wing-chair-in-blue-colour-by-dreamzz-furniture-royal-wing-chair-in-blue-colour-by-dreamzz-furn-pitcjr.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        },
+        {
+            "id":"907",
+            "pname":"Cloth Bag",
+            "description":"Maroon Solid Polyester Foldable 1 Cloth Organiser",
+            "price":6000, 
+            "image":"maroon-solid-polyester-foldable-1-cloth-organiser-by-hosta-homes-maroon-solid-polyester-foldable-1-c-fabee1.webp",
+            "stockquantity":10,
+ "discount":20,
+"category":"appliances"
+        }
+    ],
+    "Garden":[
+        {
+            "id":"191",
+            "pname":"Ceramic Pot",
+            "description":"Black Ceramic Cut Designer Floor Planter",
+            "price":"700", 
+            "image":"black-ceramic-cut-designer-floor-planter-by-niyara-black-ceramic-cut-designer-floor-planter-by-niyar-plbfrj.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"192",
+            "pname":"Decorative items",
+            "description":"White Stone Grace Decorative Pebbles",
+            "price":"143", 
+            "image":"white-stone-grace--decorative-pebbles-by--home-white-stone-grace--decorative-pebbles-by--home-rpkkm6.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"193",
+            "pname":"Stylish Planter",
+            "description":"Black Iron Rickshaw Shape Floor Planter without Pot",
+            "price":"833", 
+            "image":"black-iron-rickshaw-shape-floor-planter-with-1-pot-container-by-justoriginals-black-iron-rickshaw-sh-ldsipk.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"194",
+            "pname":"Floor Planter",
+            "description":"Multicolour Iron Diamond Floor Planter, Set of 3",
+            "price":"1,099", 
+            "image":"multicolour-iron-diamond-floor-planter--set-of-3-by-amaya-decors-multicolour-iron-diamond-floor-plan-xj2gez.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"195",
+            "pname":"Floor Planter",
+            "description":"White Fiber Glass Cylindrical Shaped Medium Floor Planter",
+            "price":"2,599", 
+            "image":"white-fiber-glass-cylindrical-shaped-medium-floor-planter-by-craftter-white-fiber-glass-cylindrical--ycexwb.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"196",
+            "pname":"Wall Mounted Planter",
+            "description":"Oval (Set of 4) Engineered Wood Wall Hanging Planter",
+            "price":"1,999", 
+            "image":"oval--set-of-4--engineered-wood-wall-hanging-planter-by-random-oval--set-of-4--engineered-wood-wall--kigslx.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        },
+        {
+            "id":"197",
+            "pname":"Hanging Plant",
+            "description":"Gold-Toned Metal Hanging Planter",
+            "price":"999", 
+            "image":"gold-toned-metal-hanging-planter-by-tied-ribbons-gold-toned-metal-hanging-planter-by-tied-ribbons-0upssq.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"garden"
+        }
+    ],
+    "Carpets":[
+        {
+            "id":"601",
+            "pname":"Door carpet",
+            "description":"Polyester Geometric 30X18 Inches Antiskid Doormat", 
+            "price":"199", 
+            "image":"brown-polyester-geometric--30x18-inches-antiskid-doormat-by-lehar-decor-brown-polyester-geometric--3-uyevxv (1).webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"602",
+            "pname":"Indoor Mat",
+            "description":"grey Cotton Geometric 15x23 inches Super soft Doormat", 
+            "price":"599", 
+            "image":"grey-cotton-geometric-15x23-inches-super-soft-doormat-by-status-grey-cotton-geometric-15x23-inches-s-a2pag6.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"603",
+            "pname":"Welcome door Mat",
+            "description":"Brown PVC Slogan Door Mat", 
+            "price":"299", 
+            "image":"brown-pvc-slogan-door-mat-by--home-brown-pvc-slogan-door-mat-by--home-fnle1v.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"604",
+            "pname":"Casual Carpet",
+            "description":"Abstract Pattern Polyester Fur 5 x 2 Feet Shaggy Bedside Runner", 
+            "price":"599", 
+            "image":"polyester-heavy-quality-shaggy-fur-bed-side-runner-by-hosta-homes-polyester-heavy-quality-shaggy-fur-fqjsps.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"605",
+            "pname":"Bedroom carpet",
+            "description":"Black Polyester Geometric 3 x 5 Feet Machine Made Carpet", 
+            "price":"959", 
+            "image":"black-polyester-geometric-3--x-5--feet-machine-made-carpet-by--home-black-polyester-geometric-3--x-5-dgzx5o.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"606",
+            "pname":"Bedroom Mat",
+            "description":"Beige Microfibre Shag 3 x 5 Feet Machine Made Carpet", 
+            "price":"299", 
+            "image":"beige-microfiber-machine-made-5x3-feet-carpet-by--home-beige-microfiber-machine-made-5x3-feet-carpet-mdz13n.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        },
+        {
+            "id":"607",
+            "pname":"Floor Carpet",
+            "description":"Brown Polyester Vintage 4 x 6 Feet Machine Made Carpet", 
+            "price":"1,399", 
+            "image":"brown-polyester-vintage-4--x-6--feet-machine-made-carpet-by--home-brown-polyester-vintage-4--x-6--fe-unxqff.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"carpets"
+        }
+        
+    ],
+    "Furnishings":[
+        {
+            "id":"720",
+            "pname":"Pillows",
+            "description":"Solid 300 Tc 100 % Cotton Bedsheet With 2 Pillow Covers", 
+            "price":"499", 
+            "image":"mauve-solid---cotton--tetra-pleat-mauve-300tc-cotton-bed-sheet-with-2-pillow-covers--by-sadyaska-mau-5etcox.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"721",
+            "pname":"Gray bedsheets",
+            "description":"Grey Solid 300 Tc 100 % Cotton Bedsheet With 2 Pillow Covers", 
+            "price":"3,499", 
+            "image":"grey-solid---cotton--dreams-wave-grey-300tc-cotton-bed-sheet-with-2-pillow-covers--by-sadyaska-grey--e8kfgj.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"722",
+            "pname":"Polysters covers",
+            "description":"Purple Polyester Solid 225 TC 1 Double King Size Bedsheet with 4 Pillow Covers", 
+            "price":"799", 
+            "image":"polyester-solid-225-tc-1-double-bedsheet-with-4-pillow-covers-polyester-solid-225-tc-1-double-bedshe-xkotzl.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"723",
+            "pname":"Blue Pillow Civer",
+            "description":"Blue 100% Cotton Striped Printed 120 TC 1 Single Bedsheet With 1 Pillow Cover", 
+            "price":"899", 
+            "image":"blue-100--cotton-striped-printed-120-tc-1-single-bedsheet-with-1-pillow-cover-blue-100--cotton-strip-ookqcc.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"724",
+            "pname":"Stylish Covers",
+            "description":"Multicolour Geometric 300 TC 100% Cotton Single Bedsheet With 1 Pillow Covers Origami Collection", 
+            "price":"1099", 
+            "image":"multicolour-geometric-300-tc-100--cotton-single-bedsheet-with-1-pillow-covers-origami-collection-by--dtaiyt.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"725",
+            "pname":"Pillow Covers",
+            "description":"Red 100% Cotton Striped Printed 120 TC 1 Single Bedsheet With 1 Pillow Cover", 
+            "price":"699", 
+            "image":"red-100--cotton-striped-printed-120-tc-1-single-bedsheet-with-1-pillow-cover-red-100--cotton-striped-kykaw5.webp",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        },
+        {
+            "id":"726",
+            "pname":"Cotton Furnishings",
+            "description":"Blue Geometric 140 TC Cotton 1 Single Bedsheet With 1 Pillow Cover", 
+            "price":"999", 
+            "image":"blue-geometric-140-tc-cotton-1-single--bedsheet-with-1-pillow-cover-blue-geometric-140-tc-cotton-1-s-h4g49s.jpg",
+            "stockquantity":10,
+            "discount":20,
+            "category":"furnishings"
+        }
+    ]
+
+    
+}
+
+

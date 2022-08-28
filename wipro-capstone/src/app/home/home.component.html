@@ -1,0 +1,196 @@
+
+<div class="trending">
+  <div class="search">
+    <input type="text" [(ngModel)]="searchInput" class="form-control searchbar" placeholder="Search">
+    <div>
+   
+      <div class="prodts">
+      <div class="pitems" *ngFor="let b of items | search:searchInput">
+        <div class="image-body">
+          <a href="#"><img src="{{b.image}}" alt="image" height="200px" width="200px"></a>
+        </div>
+        <div >
+          <ul>
+            <li> <strong>{{b.pname}}</strong></li>
+            <li> {{b.description}}</li>
+            <li><strong>Price</strong> : {{b.price}}</li>
+            
+          </ul>
+        </div>
+        <div class="itemscart">
+          <button class="btn btn-primary" type="submit" (click)="cart(b)">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-primary" type="submit" (click)="wishlist(b)">
+              <i class="bi bi-heart"></i>
+            </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+    
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="assets/images/banner3.jpg" alt="Los Angeles" style="width:100%;height:280px;" >
+          </div>
+    
+          <div class="item">
+            <img src="assets/images/banner2.jpg" alt="Chicago" style="width:100%;height:280px;" >
+          </div>
+        
+          <div class="item">
+            <img src="assets/images/banner1.jpg" alt="New York" style="width:100%;height:280px;">
+          </div>
+      
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<section class="goods">
+    <h2 class="popular">Trending Products on Sale</h2>
+    <div class="home-images">
+      
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/soomin-black-fabric-shade-floor-lamp-with-brass-base-by-casacraft-soomin-black-fabric-shade-floor-la-343cx2.webp" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Bedroom Lamp</h5>
+                    <p class="card-text">Price: Rs. 799</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+          <img class='mx-auto img-thumbnail' src="assets/images/436737-android-ios-sinnux-original-imafwk2mdsugmetg.jpg" width="auto" height="auto"/>
+          <div class="card-body text-center mx-auto">
+            <div class='cvp'>
+              <h5 class="card-title font-weight-bold">Smart Watch</h5>
+              <p class="card-text">Price: Rs. 2,999</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+          <img class='mx-auto img-thumbnail' src="assets/images/black-iron-rickshaw-shape-floor-planter-with-1-pot-container-by-justoriginals-black-iron-rickshaw-sh-ldsipk.webp" width="auto" height="auto"/>
+          <div class="card-body text-center mx-auto">
+            <div class='cvp'>
+              <h5 class="card-title font-weight-bold">Pot Container for plants</h5>
+              <p class="card-text">Price: Rs. 699</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/black-ceramic-cut-designer-floor-planter-by-niyara-black-ceramic-cut-designer-floor-planter-by-niyar-plbfrj.jpg" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Ceramic floor Plante</h5>
+                    <p class="card-text">Price: Rs. 999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/gold-toned-metal-hanging-planter-by-tied-ribbons-gold-toned-metal-hanging-planter-by-tied-ribbons-0upssq.jpg" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Flower Planter</h5>
+                    <p class="card-text">Price: Rs. 999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/petunia-solid-wood-coffee-table-with-marble-top-in-rustic-teak-finish---mudramark-by-pepperfry-petun-78zpaf.webp" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Coffee Table</h5>
+                    <p class="card-text">Price: Rs. 3,999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/6.jpg" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Ultra Smooth sofa</h5>
+                    <p class="card-text">Price: Rs. 4,999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/3.jpg" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Mens Denim Short</h5>
+                    <p class="card-text">Price: Rs. 799</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/iphone 12.jpg" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">IPhone 12</h5>
+                    <p class="card-text">Price: Rs. 70,999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class= 'container-fluid'>
+        <div class="card mx-auto col-md-3 col-10 mt-5">
+            <img class='mx-auto img-thumbnail' src="assets/images/kent-aura-room-air-purifier-45-watt-with-hepa-technology--white--kent-aura-room-air-purifier-45-watt-ozc6ce.webp" width="auto" height="auto"/>
+            <div class="card-body text-center mx-auto">
+                <div class='cvp'>
+                    <h5 class="card-title font-weight-bold">Kent air purifier</h5>
+                    <p class="card-text">Price: Rs. 7,999</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>

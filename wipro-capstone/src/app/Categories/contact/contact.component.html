@@ -1,0 +1,16 @@
+<section>
+    <form #userform="ngForm" (ngSubmit)="contact()" id="form_login">
+      <div *ngIf="success" class="formclass">
+        <h2 style="font-weight:bold;padding-bottom:10px;text-align: center;">Email to Vendor </h2>
+        <input class="inputelement1" type="text" name="username" required #usernameControl="ngModel" [(ngModel)]="username" placeholder="Enter the email"><br>
+        <p *ngIf="usernameControl.touched && usernameControl.invalid">Username required</p>
+        <input class="inputelement1" type="text" name="subject" required #subjectControl="ngModel" [(ngModel)]="subject" placeholder="subject"><br>
+        <p *ngIf="subjectControl.touched && subjectControl.invalid">Username required</p>
+        <textarea id="subject" name="body" #usernameControl="ngModel" [(ngModel)]="body" placeholder="Body of the mail" style="height:200px"></textarea>
+        <p *ngIf="usernameControl.touched && usernameControl.invalid">Fill all the details</p>
+
+        <p *ngIf="userform.valid && success && onclick">Fill all the details</p>
+        <button class="btn" type="submit">Submit</button><br>
+      </div>
+    </form>
+    </section>

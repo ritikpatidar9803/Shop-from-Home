@@ -1,0 +1,19 @@
+
+  <div id="form_login">
+    <div *ngIf="!success" class="formclass">
+      <p class="reghead">Update product Details</p>
+        <input class="inputelement" type="number" name="Pid"   [(ngModel)]="Pid" placeholder="ProductId"><br>
+      <input class="inputelement" type="text" name="Pname"  [(ngModel)]="Pname" placeholder="Enter the pname"><br>
+      <input class="inputelement" type="text" name="Description"  [(ngModel)]="Description" placeholder="Enter the description"><br>
+      <input class="inputelement" type="number" name="price"  [(ngModel)]="Price" placeholder="Enter the price"><br>
+      <input class="inputelement" type="text" name="Image"  [(ngModel)]="Image" placeholder="Enter the image url"><br>
+      
+      <input class="inputelement" type="number" name="Stockquantity"  [(ngModel)]="Stockquantity" placeholder="Enter the stock quantity"><br>
+      <input class="inputelement" type="text" name="Category"  [(ngModel)]="Category" placeholder="Enter the category"><br>
+      <button  class="btn btn-success" id="just" type="submit" (click)="updprod()">Update</button><br>
+    </div>
+  </div>
+  
+  
+  
+   <!-- <p>adminproduct works</p> -->

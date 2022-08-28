@@ -1,0 +1,41 @@
+<article>
+<header class="main-header sticky">
+  <div class="shopname">
+    <a routerLink="/home" class="shopname">
+      <img src="assets/images/logo.JPG">Shop for Home
+    </a>
+  </div>
+  
+  <div class="widget-cart">
+    <a routerLink="/cart" class="icon icon-md rounded-circle border">
+      <i class="fa fa-shopping-cart"></i>
+    </a>
+  <a routerLink="/wishlist" class="icon ">
+    <i class="bi bi-heart"></i>
+  </a>
+  <a routerLink="/myorders">
+    Myorders
+  </a>
+    <app-usersession></app-usersession>
+    <p>|</p> 
+    <a routerLink="/register">Register</a>
+</div>
+</header>
+
+<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom">
+<div class="categories">
+<a class="nav-link" routerLink="/home">Home</a>
+<a class="nav-link " routerLink="/garden">Garden&Outdoor</a>
+<a class="nav-link" routerLink="/furniture">Furniture</a>
+<a class="nav-link" routerLink="/carpet">Carpets</a>
+<a class="nav-link" routerLink="/electronics">Appliances</a>
+<a class="nav-link" routerLink="/furnishings">Furnishings</a>
+<a class="nav-link" routerLink="/beds">Beds&Mattresses</a>
+<a class="nav-link" routerLink="/discount">My Coupons</a>
+</div>
+</nav>
+
+
+</article>
+
+<router-outlet></router-outlet>

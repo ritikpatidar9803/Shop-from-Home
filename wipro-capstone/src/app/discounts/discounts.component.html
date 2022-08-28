@@ -1,0 +1,19 @@
+
+  <div>
+    <h2 class="discount-head"><strong>My Discount Coupons</strong> </h2>
+    <!-- <button id="addfeature" (click)="addmore()" class="btn btn-success">Add More to wishlist</button> -->
+      <div class="discount">
+      <div class="ditems" *ngFor="let it of items">
+        <div class="image-body">
+          <a href="#"><img src="{{it.image}}" alt="image" height="200px" width="200px"></a>
+        </div>
+        <div >
+          <ul>
+            
+            <li><strong>Discount</strong> : {{it.percentage}} off</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>

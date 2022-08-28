@@ -1,0 +1,85 @@
+<section>
+<div class="admin">
+    <p> All User Details</p>
+    <table>
+        <tr>
+            <th>User Id</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Delete</th>
+            <!-- <th>Update</th> -->
+        </tr>
+        <tr>
+            <th><input class="inputelement" type="number" style="width:50px;text-align:center"  [(ngModel)]="uid" placeholder="userId"></th>
+            <th><input class="inputelement" type="text" style="width:100px;text-align:center" [(ngModel)]="username" placeholder="Username"></th>
+            <th><input class="inputelement" type="text"  style="width:200px;text-align:center" [(ngModel)]="email" placeholder="Email"></th>
+            <th><input class="inputelement" type="text" style="width:100px;text-align:center" [(ngModel)]="password" placeholder="password"></th>
+            <th><input class="inputelement" type="text" style="width:100px;text-align:center" [(ngModel)]="phone" placeholder="Phone"></th>
+            <th><input class="inputelement" type="text" style="width:300px;text-align:center" [(ngModel)]="address" placeholder="Address"></th>
+            
+            
+            <th><a style="cursor:pointer" (click)="addUser()">Add User</a></th>
+            
+
+        </tr>
+        <tr *ngFor="let p of users">
+            <td>&nbsp;{{p.id}}&nbsp; </td>
+            <td>&nbsp;{{p.username}}&nbsp;</td>
+            <td>&nbsp;{{p.email}}&nbsp;</td>
+            <td>&nbsp;{{p.password}}&nbsp;</td>
+            <td>&nbsp;{{p.phone}}&nbsp;</td>
+            <td>&nbsp;{{p.address}}&nbsp;</td>
+            <td><a style="cursor:pointer" (click)="deleteuser(p)">Delete</a></td>
+            <!-- <td>&nbsp;sales&nbsp;</td> -->
+            <!-- <td><a style="cursor:pointer" (click)="deleteRec(p)">Delete</a></td> -->
+            <!-- <td><a>Update</a></td> -->
+           
+        </tr>
+    </table>
+    </div>
+    <div class="admin">
+        <table>
+            <tr>
+            <th>Discount Id</th>
+            <th>Discount Image</th>
+            <th>Discount percentage</th>
+            <th>Add to user by using userid</th>
+            </tr>
+            <tr *ngFor="let p of items">
+                <td>&nbsp;{{p.did}}&nbsp; </td>
+                <td><img src={{p.image}} width="100" height="100"/>&nbsp;</td>
+            <td>&nbsp;{{p.percentage}}%&nbsp;</td>
+               <td> 
+                <input  type="number"  required #userControl="ngModel" [(ngModel)]="userid" placeholder="userid">
+                <p *ngIf="userControl.touched && userControl.invalid">enter valid userid</p>
+                <a style="cursor:pointer" (click)="addDiscount(p)">Add to user</a>
+            </td> 
+               
+            </tr>
+            
+            
+        </table>
+    </div>
+
+</section>
+
+<!-- <p class="usrs"><a routerLink="/admincrud" ><strong>Products</strong></a></p>
+<p class="usrdisc"></p>
+<p class="salesone"><button type="submit" class="btn btn-primary" (click)="sal()">Sales Report</button></p>
+  <div class="get"><a href="http://localhost:8282/api/csv/download">Get stocks</a></div> -->
+
+  <div class="dropdown2">
+    <button class="dropbtn2">AdminOperations</button>
+    <div class="dropdown-content2">
+        <a routerLink="/adminusers">Users</a>
+        <a routerLink="/admincrud" >Products</a>
+        <a style="cursor:pointer" (click)="sal()">Sales report</a>
+        <a style="cursor:pointer" (click)="upload()">Upload Stocks</a>
+        <a href="http://localhost:8282/api/csv/download">Get stocks</a>
+        <a routerLink="/newproduct">Update product</a>
+        <a routerLink="/admindiscount">New Coupon</a>
+    </div>
+  </div>

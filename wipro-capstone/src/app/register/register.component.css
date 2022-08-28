@@ -1,0 +1,96 @@
+
+
+
+section{
+    height: 110vh;
+    margin-top: -27px;
+    width: 100%;
+    
+    background-image: url("src/assets/images/signinback.jpg");
+}
+  
+  .container{
+    position: absolute;
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    left:35%;
+    margin-top:20px ;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+ 
+  .container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container form{
+    margin-top: -20px;
+  }
+  .container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+    padding-top: 10px ;
+  }
+  form .data label{
+    font-size: 18px;
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+  form .forgot-pass{
+    margin-top: -8px;
+  }
+  form .forgot-pass a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .forgot-pass a:hover{
+    text-decoration: underline;
+  }
+  form .btn{
+    top: 5px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background-color: #200752;
+    border: 2px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    
+  }
+  
+  form .signin-link{
+    text-align: center;
+    padding-top: 20px;
+  }
+  form .signin-link a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .signin-link a:hover{
+    text-decoration: underline;
+  }
+  form .data p{
+    color: red;
+  }

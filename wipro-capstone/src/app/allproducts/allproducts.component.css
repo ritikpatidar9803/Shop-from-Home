@@ -1,0 +1,135 @@
+.admin{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:40px;
+    text-align:center;
+    
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    
+}
+table{
+    
+    width:100%;
+}
+th{
+    height:50px;
+    text-align:center;
+}
+p{
+    font-size:18px;
+    font-weight:bold;
+}
+.dropdown{
+    position:absolute;
+    top:22.5%;
+    right:3%;
+}
+.dropbtn {
+    background-color: #337ab7;
+    color: white;
+    text-align:center;
+    font-size: 12px;
+    border-radius:10px;
+    height:30px;
+    width:90px;
+    font-weight:bold;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .addp{
+    position:absolute;
+    top:25.5%;
+    right:12%;
+    font-size:14px;
+  }
+  .usrs{
+    position:absolute;
+    top:25.5%;
+    right:20%;
+    font-size:18px;
+  }
+  .inputelement{
+    width:100px;
+  
+  }
+  .salesone{
+    position:absolute;
+    top:25.5%;
+    left:12%;
+  }
+  .get{
+    position:absolute;
+    top:25.5%;
+    left:23%;
+    font-size:18px;
+    font-weight:bold;
+  }
+  .uploadstocks{
+    position:absolute;
+    top:25.5%;
+    left:33%;
+  }
+  .dropdown2{
+    position:absolute;
+    top:22.5%;
+    left:3%;
+}
+.dropbtn2 {
+    background-color: #337ab7;
+    color: white;
+    text-align:center;
+    font-size: 12px;
+    border-radius:10px;
+    height:30px;
+    width:120px;
+    font-weight:bold;
+  }
+  
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+

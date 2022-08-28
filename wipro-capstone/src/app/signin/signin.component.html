@@ -1,0 +1,33 @@
+<section>
+  
+  <div class="center">
+    <div class="container">
+        <div class="text">
+          Signin
+       </div>
+       <form #userform="ngForm" (ngSubmit)="login()" id="form_login">
+          <div *ngIf="!success" class="data formclass">
+             <label>Enter the Username:</label>
+             <input class="inputelement" type="text" name="username" required #usernameControl="ngModel" [(ngModel)]="username" placeholder="Username"><br>
+             <p *ngIf="usernameControl.touched && usernameControl.invalid">Username required</p>
+          </div>
+          <div class="data">
+             <label>Enter the Password :</label>
+             <input class="inputelement" type="password" name="password" autocomplete="on" required #passwordControl="ngModel" [(ngModel)]="password" placeholder="password"><br>
+             <p *ngIf="passwordControl.touched && passwordControl.invalid">Password required</p>
+             <p *ngIf="userform.valid && !success && onclick">Enter the correct credentials</p>
+          </div>
+          
+          <div class="btn">
+            <button type="submit"><i>Login</i></button>
+         </div>
+          
+          
+          <div class="signup-link">
+             Not registered yet ? <a routerLink="/register">Register</a>
+          </div>
+       </form>
+    </div>
+ </div>
+  </section>
+  

@@ -1,0 +1,35 @@
+<section >
+  <div *ngIf="success">
+<h2 class="items-head"><strong>Your Cart</strong> </h2>
+ <button id="addfeature" (click)="addmore()" class="btn btn-success">Add More to cart</button> 
+  <div class="completed">
+  <div class="items" *ngFor="let it of items">
+    <div class="image-body">
+      <a href="#"><img src="{{it.image}}" alt="image" height="200px" width="200px"></a>
+    </div>
+    <div>
+      <ul>
+        <li class="pname"><strong>{{it.pname}}</strong></li>
+        <li class="pdesc">{{it.description}}</li>
+        <li><strong>Price : </strong>{{it.price}}</li>
+        <li><strong>Address :</strong>{{it.address}}</li>
+        <li><strong>UserEmail:</strong>{{it.email}}</li>
+        <li><strong>Discount : </strong>{{selected}}% off</li>
+      </ul>
+    </div>
+    <input class="inputelement" type="number"  [(ngModel)]="stockqnt" placeholder="Quantity">
+    
+    <li><strong>Price</strong> after Discount: Rs.{{it.price*stockqnt*(100-selected)/100}}</li>
+    <button type="submit"  class="btn btn-primary" (click)="addsales(it)">Place Order</button>
+  </div>
+</div>
+</div>
+<h2 *ngIf="!success" class="loginhead"><a routerLink="/signin">Login</a> to see your Orders</h2>
+</section>
+<select class="discOptions" (change)="update($event)">
+    <option value="default">Discount  Coupon</option>
+    <option *ngFor="let disc of discounts" [value]="disc.percentage">
+        {{disc.percentage}}
+    </option>
+</select>
+

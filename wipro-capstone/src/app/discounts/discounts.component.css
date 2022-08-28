@@ -1,0 +1,30 @@
+.discount-head{
+    text-align-last: center;
+    padding-top:10px;
+}
+a:hover img{
+    transform:scale(1.2);
+}
+.ditems{
+    margin:25px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    justify-content: center;;
+    align-items:center;   
+}
+.discount{
+    margin-left:8%;
+    margin-right:8%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap:20px;
+    padding-top:20px
+} 
+
+.btn{
+    position:absolute;
+    top:24%;
+    left:15%;
+}

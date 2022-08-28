@@ -1,0 +1,28 @@
+export class Myorders {
+    mid:number;
+    orderid:number;
+    id:number;
+    pid:number;
+    pname:string;
+    description:string;
+    price:number;
+    address:string;
+    email:string;
+    image:string;
+    datedetails:string;
+    category:string;
+    constructor(mid:number,orderid:number,id:number,pid:number,pname:string,description:string,price:number,address:string,email:string,image:string,datedetails:string,category:string){
+        this.mid=mid;
+        this.orderid=orderid;
+        this.id=id;
+        this.pid=pid;
+        this.pname=pname;
+        this.description=description;
+        this.price=price;
+        this.address=address;
+        this.email=email;
+        this.image=image;
+        this.datedetails=datedetails;
+        this.category=category;
+    }
+}

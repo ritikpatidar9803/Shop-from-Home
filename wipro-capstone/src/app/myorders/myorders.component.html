@@ -1,0 +1,24 @@
+
+<section >
+    <div *ngIf="success">
+  <h2 class="items-head"><strong>Your Orders</strong> </h2>
+    <div class="completed">
+    <div class="items" *ngFor="let it of items">
+      <div class="image-body">
+        <a href="#"><img src="{{it.image}}" alt="image" height="200px" width="200px"></a>
+      </div>
+      <div>
+        <ul>
+          <li><strong>{{it.pname}}</strong></li>
+          <li>{{it.description}}</li>
+          <li><strong>Price : </strong>Rs.{{it.price}}</li>
+          <li><strong>Address :</strong>{{it.address}}</li>
+          <li><strong>UserEmail:</strong>{{it.email}}</li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <h2 *ngIf="!success" class="loginhead"><a routerLink="/signin">Login</a> to see your Orders</h2>
+  </section>

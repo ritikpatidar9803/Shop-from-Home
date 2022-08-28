@@ -1,0 +1,26 @@
+
+<section >
+    <div *ngIf="success">
+  <h2 class="items-head"><strong>Welcome to Your Wishlist</strong> </h2>
+   <button id="addfeature" (click)="addmore()" class="btn btn-success">Add More to wishlist</button> 
+    <div class="Wishlist">
+    <div class="items" *ngFor="let it of wl">
+      <div class="image-body">
+        <a href="#"><img src="{{it.image}}" alt="image" height="200px" width="200px"></a>
+      </div>
+      <div>
+        <ul>
+          <li><strong>{{it.pname}}</strong></li>
+          <li>{{it.description}}</li>
+          <li><strong>Price : </strong>{{it.price}}</li>
+        </ul>
+      </div>
+      <!-- <button class="btn btn-primary"  >
+        <i class="fa fa-shopping-cart" type="submit" (click)="cart(it)"></i>
+      </button> -->
+    </div>
+  </div>
+  </div>
+  <h2 *ngIf="!success" class="loginhead"><a routerLink="/signin">Login</a> to see your wishlist</h2>
+  </section>
+  

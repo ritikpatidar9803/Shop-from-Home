@@ -1,0 +1,60 @@
+.formclass{
+    padding:20px 5px 0 10px;
+    border:3px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:right;
+    justify-content: space-between;
+    height:350px;
+    width:400px;
+    font-weight:bold;
+    background-color:hsl(240, 82%, 9%,0.7);
+    color:white;
+    
+}
+#form_login {
+    left      : 50%;
+    top       : 60%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+section{
+    font-family:sans-serif;
+}
+
+.inputelement{
+    border-radius:5px;
+    height:40px;
+    width:200px;
+    text-align:center;
+    color:black;
+}
+.reghead{
+    font-weight:bold;
+    font-size:30px;
+    color:white;
+}
+
+a{
+    color:white;
+    text-decoration: underline;
+}
+.nreg{
+    color:green;
+    font-size:15px;
+    font-weight:bold;
+}
+#just{
+    margin-top:5px;
+}
+
+
+.btn{
+    width:120px;
+    height:40px;
+    font-weight:bold;
+    font-size:17px;
+}
+
+

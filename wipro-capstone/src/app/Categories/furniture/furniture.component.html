@@ -1,0 +1,47 @@
+<div>
+    <h2 class="books-head"><strong>Latest Home Furniture</strong> </h2>
+    <!-- <button id="addfeature" (click)="addmore()" class="btn btn-success">Add More to wishlist</button> -->
+    <div class="container">
+      <div class="row" *ngFor="let it of items">
+          <div class="col-md-3 col-sm-6">
+              <div class="product-grid">
+                  <div class="product-image">
+                       <img class="pic-1" src="{{it.image}}">
+                       <img class="pic-2" src="{{it.image}}">
+                       <span class="product-sale-label">sale!</span>
+                      <ul class="social">
+                          <li><i class="fa fa-heart" (click)="wishlist(it)"></i></li>
+                      </ul>
+                      <div class="product-rating">
+                          <ul class="rating">
+                              <li class="fas fa-star"></li>
+                              <li class="fas fa-star"></li>
+                              <li class="fas fa-star"></li>
+                              <li class="far fa-star"></li>
+                              <li class="far fa-star"></li>
+                          </ul>                          
+                          <i class="add-to-cart" (click)="cart(it)"> ADD TO CART </i> 
+                      </div>
+                  </div>
+                  <div class="product-content">
+                      <h3 class="title">{{it.pname}}</h3>
+                      <h5>{{it.description}}</h5>
+                      <div class="price">Rs.{{it.price}}</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+<section *ngFor="let boo of eclipse">
+  <p>{{boo.pname}}</p>
+  <p>{{boo.description}}</p>
+  
+</section>
+<div class="dropdown">
+  <button class="dropbtn">Filter By</button>
+  <div class="dropdown-content">
+    <a style="cursor:pointer" (click)="descend()">High to Low price</a>
+    <a  style="cursor:pointer" (click)="ascend()">Low to High price</a>
+  </div>
+</div>

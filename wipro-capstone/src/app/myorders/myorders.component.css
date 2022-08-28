@@ -1,0 +1,43 @@
+.items-head{
+    text-align: center;
+    padding-top:10px;
+}
+a:hover img{
+    transform:scale(1.2);
+}
+.items{
+    margin:25px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content: center;;
+    align-items:center;   
+    border:2px solid black;
+}
+.completed{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+section{
+    font-family:sans-serif;
+
+}
+.loginhead{
+    font-weight:bold;
+    color:#337ab7;
+    text-align:center;
+    padding-top:100px;
+}
+a{
+    color:#337ab7;
+    text-decoration: underline;
+}
+a:hover{
+    color:crimson;
+}
+#addfeature{
+    position:absolute;
+    top:17%;
+    right:5%;
+}

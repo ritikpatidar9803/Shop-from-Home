@@ -1,0 +1,5 @@
+<div *ngIf="!loggedin()"><p><a routerLink="/signin"><i class="fa fa-user"></i>Signin</a></p> </div>
+<div *ngIf="loggedin()">
+    <p><a  style="cursor:pointer" (click)="logout()"><i class="fa fa-user"></i>Signout</a></p>
+    <p *ngIf="prole()"><a routerLink='/admincrud'>AdminOperations</a></p>
+</div>

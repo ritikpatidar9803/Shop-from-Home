@@ -1,0 +1,11 @@
+<div id="form_login">
+    <div *ngIf="!success" class="formclass">
+      <p class="reghead">Add  Coupon</p>
+        <input class="inputelement" type="number" name="Pid"   [(ngModel)]="Did" placeholder="DiscountId"><br>
+      <input class="inputelement" type="text" name="Percentage"  [(ngModel)]="Percentage" placeholder="Discount Percentage"><br>
+      
+      <input class="inputelement" type="text" name="Image"  [(ngModel)]="Image" placeholder="Coupon image"><br>
+      
+      <button  class="btn btn-success" id="just" type="submit" (click)="adddisc()">Add</button><br>
+    </div>
+  </div>

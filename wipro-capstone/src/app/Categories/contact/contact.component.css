@@ -1,0 +1,53 @@
+.formclass{
+   display:flex;
+   flex-direction: column;
+    border:3px solid black;
+    height:400px;
+    width:400px;
+    font-weight:bold;
+    gap:5px;
+    background-color:rgba(4, 8, 53, 0.7);
+    
+    color:white;
+
+    
+}
+#form_login {
+    left      : 50%;
+    top       : 58%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+section{
+    font-family:sans-serif;
+}
+p{
+    color:red;
+    font-weight:normal;
+    font-size:12px;
+}
+.inputelement1{
+    color:black;
+    width:90%;
+    height:50px;
+    margin-left:20px;
+    
+}
+#subject{
+    color:black;
+    width:90%;
+    height:50%;
+    margin-left:20px;
+    
+}
+.btn{
+    background-color:green;
+    color:white;
+    width:80px;
+    margin-top:15px;
+    margin-left:42%;
+
+}
+
+
+

@@ -1,0 +1,78 @@
+<div class="admin">
+    <p> All Product Details</p>
+    <table>
+        <tr>
+            <th>Product Id</th>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Stock Quantity</th>
+            <th>Mail</th>
+            <th>Delete</th>
+            
+        </tr>
+        <tr>
+            <th><input class="inputelement" type="number"  style="width:50px;text-align:center" [(ngModel)]="pid" placeholder="ProductId"></th>
+            <th><input class="inputelement" type="text"  style="width:100px;text-align:center"[(ngModel)]="image" placeholder="Image url"></th>
+            <th><input class="inputelement" type="text"  style="width:100px;text-align:center" [(ngModel)]="pname" placeholder="Product name"></th>
+            <th><input class="inputelement" type="text" style="width:300px;text-align:center" [(ngModel)]="description" placeholder="Description"></th>
+            <th><input class="inputelement" type="number" style="width:70px;text-align:center" [(ngModel)]="price" placeholder="price"></th>
+            <th><input class="inputelement" type="text"  style="width:100px;text-align:center"[(ngModel)]="category" placeholder=" category "></th>
+            <th><input class="inputelement" type="number" style="width:50px;text-align:center" [(ngModel)]="stockquantity" placeholder="Stock quantity"></th>
+            <th>*********</th>
+            <th><a style="cursor:pointer" (click)="addprod()">Add product</a></th>
+           
+
+        </tr>
+        <tr *ngFor="let p of items">
+            <td>&nbsp;{{p.pid}}&nbsp; </td>
+            <td>&nbsp;<img src={{p.image}} width="100" height="100"/>&nbsp;</td>
+            <td>&nbsp;{{p.pname}}&nbsp;</td>
+            <td>&nbsp;{{p.description}}&nbsp;</td>
+            <td>&nbsp;{{p.price}}&nbsp;</td>
+            <td>&nbsp;{{p.category}}&nbsp;</td>
+            <td>&nbsp;{{p.stockquantity}}&nbsp;</td>
+            <td><a routerLink="/contact">mail to vendor</a></td>
+            <td><a style="cursor:pointer" (click)="deleteRec(p)">Delete</a></td>
+            
+            
+        </tr>
+    </table>
+</div>
+<div class="dropdown">
+    <button class="dropbtn">Filter By</button>
+    <div class="dropdown-content">
+      
+        <a style="cursor:pointer" (click)="descendProd()">&#8593; to &#8595; Price</a>
+        <a style="cursor:pointer" (click)="ascendprod()"> &#8595; to &#8593; Price</a>
+        <a style="cursor:pointer" (click)="ascendStock()"> &#8595; to &#8593; Stocks</a>
+        <a style="cursor:pointer" (click)="descendStock()">&#8593; to &#8595; Stocks</a>
+       
+    </div>
+  </div>
+  <div class="dropdown2">
+    <button class="dropbtn2">AdminOperations</button>
+    <div class="dropdown-content2">
+        <a routerLink="/adminusers">Users</a>
+        <a routerLink="/admincrud" >Products</a>
+        <a style="cursor:pointer" (click)="sal()">Sales report</a>
+        <a style="cursor:pointer" (click)="upload()">Upload Stocks</a>
+        
+        <a href="http://localhost:8282/api/csv/download">Get stocks</a>
+        <a routerLink="/newproduct">Update product</a>
+        <a routerLink="/admindiscount">New Coupon</a>
+        
+    </div>
+  </div>
+  <!-- <p class="usrs"><a routerLink="/adminusers"><strong>Users</strong></a></p>
+  <p class="salesone"><button type="submit" class="btn btn-primary" (click)="sal()">Sales Report</button></p>
+  <div class="get"><a href="http://localhost:8282/api/csv/download">Get stocks</a></div>
+  <p class="uploadstocks"><button type="submit" class="btn btn-primary" (click)="upload()">Upload Stocks</button></p>
+   -->
+  
+  
+    
+  
+  

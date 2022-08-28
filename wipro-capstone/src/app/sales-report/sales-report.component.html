@@ -1,0 +1,59 @@
+<div class="admin">
+    <p> Sales Report</p>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>UserId</th>
+            <th>ProductId</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Quantities sold</th>
+            <th>Product Price</th>
+            <th>Total Price</th>
+        </tr>
+        <tr *ngFor="let p of items">
+            <td>&nbsp;{{p.datedetails}}&nbsp; </td>
+            <td>&nbsp;{{p.id}}</td>
+            <td>&nbsp;{{p.pid}}&nbsp;</td>
+            <td>&nbsp;{{p.pname}}&nbsp;</td>
+            <td>&nbsp;{{p.category}}&nbsp;</td>
+            <td>&nbsp;{{p.stockquantity}}&nbsp;</td>
+            <td>&nbsp;{{p.price/p.stockquantity}}&nbsp;</td>
+            <td>&nbsp;{{p.price}}&nbsp;</td>
+            
+        </tr>
+        <tr>
+            <td>{{newdate}}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><strong>{{total}}</strong></td>
+        </tr>
+    </table>
+</div>
+<div class="dropdown">
+    <button class="dropbtn">Filter By</button>
+    <div class="dropdown-content">
+      
+        <a style="cursor:pointer" (click)="week()">Weekly</a>
+        <a style="cursor:pointer" (click)="monthwise()"> Monthly</a>
+        <a style="cursor:pointer" (click)="two()"> Last two days</a>
+        
+    </div>
+  </div>
+
+  <div class="dropdown2">
+    <button class="dropbtn2">AdminOperations</button>
+    <div class="dropdown-content2">
+        <a routerLink="/adminusers"><strong>Users</strong></a>
+        <a routerLink="/admincrud" >Products</a>
+        <a style="cursor:pointer" (click)="sal()">Sales report</a>
+        <a style="cursor:pointer" (click)="upload()">Upload Stocks</a>
+        <a href="http://localhost:8282/api/csv/download">Get stocks</a>
+        <a routerLink="/newproduct">Update product</a>
+        <a routerLink="/admindiscount">New Coupon</a>
+    </div>
+  </div>

@@ -1,0 +1,47 @@
+<section>
+    <div class="center">
+      <div class="container">
+          <div class="text">
+            Registration
+         </div>
+         <form #userform="ngForm" (ngSubmit)="register()" id="form_login">
+            <div *ngIf="!success" class="data formclass">
+               <label>Enter the Username:</label>
+               <input class="inputelement" type="text" name="username" autocomplete="on" required #UsernameControl="ngModel" [(ngModel)]="username" placeholder="Username"><br>
+               <p *ngIf="UsernameControl.touched && UsernameControl.invalid">Username required</p>
+            </div>
+            <div class="data">
+               <label>Enter the Email :</label>
+               <input class="inputelement" type="Email" name="Email" autocomplete="on" required #EmailControl="ngModel" [(ngModel)]="Email" placeholder="Email"><br>
+               <p *ngIf="EmailControl.touched && EmailControl.invalid">Email required</p>
+            </div>
+            <div class="data">
+              <label>Enter the Password :</label>
+              <input class="inputelement" type="password" name="password" autocomplete="on" required #passwordControl="ngModel" [(ngModel)]="password" placeholder="Password"><br>
+              <p *ngIf="passwordControl.touched && passwordControl.invalid">Password required</p>
+            </div>
+            <div class="data">
+              <label>Enter the Phone :</label>
+              <input class="inputelement" type="text" name="phone" autocomplete="on" required #phoneControl="ngModel" [(ngModel)]="phone" placeholder="Phone number"><br>
+              <p *ngIf="phoneControl.touched && phoneControl.invalid">Phone Number required</p>
+            </div>
+            <div class="data">
+              <label>Enter the Address :</label>
+              <input class="inputelement" type="text" name="address" autocomplete="on" required #addressControl="ngModel" [(ngModel)]="address" placeholder="Address"><br>
+              <p *ngIf="addressControl.touched && addressControl.invalid">Address required</p>
+            </div>
+            
+            <p *ngIf="userform.invalid && onClick">Enter the correct credentials</p>
+            <p *ngIf="userexist">UserAlready exists</p>
+            
+            <div class="btn">
+              <button [disabled]="!userform.valid" class="btn btn-success" id="just" type="submit"><i>Register</i></button>
+           </div>
+            <div class="signin-link">
+              Already have an account? <a routerLink="/signin">Sign in</a>
+            </div>
+         </form>
+      </div>
+   </div>
+   <h2 *ngIf="success" class="logouthead"><button  class="btn btn-primary" (click)="logout()">Logout</button> to register as new user</h2>
+</section>
